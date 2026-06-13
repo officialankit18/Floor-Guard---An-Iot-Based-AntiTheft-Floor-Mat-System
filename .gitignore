@@ -1,0 +1,36 @@
+# Sensitive Files - DO NOT COMMIT
+config.h
+credentials.h
+
+# Build artifacts
+.pio/
+build/
+.dist/
+*.o
+*.a
+*.so
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.swn
+
+# Arduino IDE
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Dependencies
+libraries/
+.lib/
+node_modules/
+
+# Platform IO
+.platformio/
